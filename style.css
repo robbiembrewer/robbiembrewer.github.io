@@ -1,114 +1,53 @@
-@import url(https://fonts.googleapis.com/css?family=Signika+Negative:400,700);
-
-html, body {
-  height:100%;
-  font-family: 'Signika Negative', sans-serif;
-  font-size: 25px;
-}
-
-html {
-  background: url('https://2.bp.blogspot.com/-SUMDIuZ7m48/TeWj1YDWcNI/AAAAAAAABhg/9fjPiDZHwms/s1600/winter.JPG') fixed;
-  background-size: 100%;
-}
-
-div {
-  overflow: hidden;
-}
-
-a {
-  color: #322bff;
-  text-decoration: underline;
-  transition: 500ms;
-}
-a:hover {
-  color: #26a1ff;
-}
-
-p {
-  padding: 0 5%;
-}
-
-img {
-  box-shadow: 0px 0px 4px #000;
-}
-
-#header {
-  background: rgba(255, 255, 255, .5);
-  padding: 1%;
-  overflow: hidden;
-  height: 55px;
-}
-#header img {
-  float: left;
-  box-shadow: none;
-}
-#header ul {
-  list-style: none;
-  float: left;
-  padding-left: 10px;
-  margin-top: 15px;
-}
-#header ul li {
-  float: left;
-  margin-left: 10px;
-  font-size: 20px;
-}
-
-.fullscreen {
-  height: 95%;
-  position: relative;
-}
-.fullscreen .header {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  color: #fff;
-  text-shadow: 0px 0px 2px #000;
-}
-
-.white {
-  background: #eeeeec;
-  padding: 0 5%;
-}
-.nobg {
-  background: none;
-  padding: 0 5%;
-  color: #fff;
-  text-shadow: 0px 0px 4px #000;
-}
-.semitrans {
-  background: rgba(255, 255, 255, .5);
-  padding: 0 5%;
-}
-.dark {
-  color: #eeeeec;
-  background: #010105;
-  padding: 0 5%;
-}
-
-.nopadding {
-  padding: 0;
-}
-
-.floatleft {
-  float: left;
-  margin: 2%;
-}
-.floatright {
-  float: right;
-  margin 2%;
-}
-
-.more {
-  text-align: center;
-  font-size: 17px;
-}
-.more a {
-  color: #aaa;
-  text-decoration: none;
-  cursor: pointer;
-}
-.more a:hover {
-  color: #777;
-}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+  }
+  .box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
+  
